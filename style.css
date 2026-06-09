@@ -1,0 +1,90 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  padding: 0;
+}
+nav {
+  position: relative;
+}
+.navbar {
+  width: 96vw;
+
+  padding: 1rem;
+  background-color: white;
+  border: 2px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+}
+.searchBox {
+  border: 1px solid grey;
+  border-radius: 16px;
+  padding: 1rem 1rem;
+  position: fixed;
+ width:93%;
+  top: 80px;
+  background-color:white;
+
+  margin-top: 2rem;
+}
+.searchBox input {
+  width: 20rem;
+  padding: 0.5rem 0.5rem;
+  outline: none;
+  border-radius: 12px;
+  background-color: rgb(244, 242, 242);
+  border: none;
+  font-size: 15px;
+}
+.searchContainer {
+  padding: 2rem;
+}
+
+.searchBox button {
+  background-color: blueviolet;
+  color: aliceblue;
+  font-size: 15px;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 16px;
+}
+.navbar button {
+  color: blueviolet;
+  background-color: rgb(225, 208, 240);
+  font-size: 15px;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 16px;
+}
+.card {
+  background-color: rgb(244, 242, 242);
+  width: 20rem;
+  border-radius: 16px;
+  font-size: 16px;
+}
+.cardSubbox {
+  display: flex;
+  padding: 1rem 2rem;
+  align-items: start;
+}
+#card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cards {
+  width: 100%;
+  display: grid;
+}
+
+.stu_detail {
+  display: flex;
+  align-items: center;
+}
+.card_section {
+  margin-top: 10rem;
+}
